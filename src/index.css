@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  font-family: "Roboto Condensed", sans-serif;
+  /* background-image: url(https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  object-fit: contain;
+  z-index: -1000; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 1120px) {
+  body {
+    /* height: 150vh; */
+    width: 100%;
+    /* background-size: contain; */
+    object-fit: contain;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  font-family: "Squada One", cursive;
+}
